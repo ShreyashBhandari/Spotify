@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Macondo&family=Skranji&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Macondo', cursive;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 20px;
+}
+
+.brand img{
+    width: 100px;
+    padding: 0 ;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.container{
+    min-height: 69vh;
+    background-color: black;
+    color: white;
+    font-family: 'Skranji', cursive;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 25px;
+    background-image: url('bg.jpg');
+    
+}
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 12px 0px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 74vw;
+    cursor: pointer;
+}
+.songContainer{
+    margin-top: 30px;
+}
+
+.songitem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;   
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songitem img{
+    width: 35px;
+    margin:0 23px 0;
+    border-radius: 30px;
+}
+
+.time{
+    margin: 0 23px;
+}
+
+.time i {
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 13vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
